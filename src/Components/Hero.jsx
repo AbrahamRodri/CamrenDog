@@ -1,6 +1,4 @@
 
-
-
 const Hero = () => {
     return (
         <div className="text-white">
