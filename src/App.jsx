@@ -1,17 +1,25 @@
 import Hero from "./Components/Hero";
 import Nav from "./Components/Nav";
+import Partners from "./Components/Partners";
 import Services from "./Components/Services";
 import Testimonials from "./Components/Testimonials";
+import FAQ from "./Components/FAQ";
 
 const App = () => {
     return(
         <>
-            <div className="bg-slate-900">
+            <div className="bg-blue-500">
                 <Nav/>
-                <Hero/>
+            </div>
+            <Hero/>
+            <div className="bg-blue-500">
                 <Services/>
             </div>
             <Testimonials/>
+            <div className="bg-blue-500">
+                <Partners/>
+            </div>
+            <FAQ/>
         </>
     );
 
