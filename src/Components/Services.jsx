@@ -1,7 +1,7 @@
 
 const Services = () => {
     return(
-        <div className="text-white flex justify-center">
+        <div className="text-white flex justify-center" id="Services">
             <div className="flex flex-col ml-6 mr-6 max-w-[1200px]">
                 <div className="flex md:flex-row flex-col items-center">
                     <div className="m-5 w-3/5 h-3/5 flex flex-col justify-evenly">

@@ -1,6 +1,6 @@
 const Testimonials = () => {
     return(
-        <div className="text-black">
+        <div className="text-black" id="Testimonials">
             <div className="max-w-[800px] w-full h-full mx-auto text-center flex flex-col  justify-center m-5">
                 <h1 className="md:text-5xl text-3xl sm:py-2 font-bold m-5">See for yourself</h1>
                 <div className="flex justify-center flex-col md:flex-row m-5">
