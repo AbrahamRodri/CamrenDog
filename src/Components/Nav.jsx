@@ -9,16 +9,16 @@ const Nav = () => {
         setClick(!click)
     }
     const content = <> 
-        <div className="lg:hidden block absolute top-16 w-full left-0 right-0 bg-slate-900 transition">
+        <div className="lg:hidden block absolute top-16 w-full left-0 right-0 bg-blue-500 transition">
             <ul className="text-center text-xl p-20">
                 <Link spy={true} smooth ={true} to="Services">
-                    <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Services</li>
+                    <li className="my-4 py-4 border-b border-yellow-500 hover:bg-blue-400 hover:rounded">Services</li>
                 </Link>
                 <Link spy={true} smooth ={true} to="Testimonials">
-                    <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Testimonials</li>
+                    <li className="my-4 py-4 border-b border-yellow-500 hover:bg-blue-400 hover:rounded">Testimonials</li>
                 </Link>
                 <Link spy={true} smooth ={true} to="Contact">
-                    <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Contact</li>
+                    <li className="my-4 py-4 border-b border-yellow-500 hover:bg-blue-400 hover:rounded">Contact</li>
                 </Link>
             </ul>
         </div> 
@@ -33,13 +33,13 @@ const Nav = () => {
                     <div className="flex-10">
                         <ul className="flex gap-8 mr-16 text-[18px]">
                             <Link spy={true} smooth ={true} to="Services">
-                                <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia- cursor-pointer">Services</li>
+                                <li className="hover:text-yellow-400 transition border-b-2 border-blue-500 hover:border-yellow-400 cursor-pointer">Services</li>
                             </Link>
                             <Link spy={true} smooth ={true} to="Testimonials">
-                                <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Testimonials</li>
+                                <li className="hover:text-yellow-400 transition border-b-2 border-blue-500 hover:border-yellow-400 cursor-pointer">Testimonials</li>
                             </Link>
                             <Link spy={true} smooth ={true} to="Contact">
-                                <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Contact</li>
+                                <li className="hover:text-yellow-400 transition border-b-2 border-blue-500 hover:border-yellow-400 cursor-pointer">Contact</li>
                             </Link>
                         </ul>
                     </div>

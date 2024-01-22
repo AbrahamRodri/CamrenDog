@@ -1,7 +1,7 @@
 const Testimonials = () => {
     return(
         <div className="text-black">
-            <div className="max-w-[800px] w-full h-full mx-auto text-center flex flex-col justify-center m-5">
+            <div className="max-w-[800px] w-full h-full mx-auto text-center flex flex-col  justify-center m-5">
                 <h1 className="md:text-5xl text-3xl sm:py-2 font-bold m-5">See for yourself</h1>
                 <div className="flex justify-center flex-col md:flex-row m-5">
                     <iframe className="flex justify-center mt-5 md:m-0" title="vimeo-player" src="https://player.vimeo.com/video/872132517?h=4d0273b986" width="auto" height="360" frameborder="0"    allowfullscreen></iframe>
@@ -10,7 +10,7 @@ const Testimonials = () => {
                 </div>
                 <h2 className="md:text-4xl text-2xl sm:py-2 font-bold m-5 mt-32">Never Worry about leads again with our</h2>
                     <h1 className="md:text-5xl sm:py-2 text-4xl font-bold m-5 mb-10">DOGS ON DEMAND SYSTEM</h1>
-                <div className="flex flex-col md:flex-row justify-center">
+                <div className="flex flex-col md:flex-row justify-center mb-16">
                     <div className="border-4 rounded-3xl border-blue-500 m-4 ">
                         <h2 className="text-xl font-bold m-5">Lead Generation</h2>
                         <p className="text-xs text-gray-500 m-3">Using platforms like Facebook and Instagram, we will generate consistent leads for your business.</p>
