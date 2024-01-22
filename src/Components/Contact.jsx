@@ -8,7 +8,7 @@ const Contact = () => {
                     <p className="md:text-3xl sm:text-2xl text-xl mt-5">Get in touch</p>
                 </div>
                 <div>
-                    <button className="border-2 p-2 px-4 rounded-xl my-5 border-yellow-500 hover:bg-gray-50">Book a call</button>
+                <button className="border-2 p-2 px-4 rounded-xl my-5 border-yellow-500 hover:bg-yellow-500 transition">Book a call</button>
                 </div>
             </div>
             <div className="bg-blue-500 h-[30vh]">
