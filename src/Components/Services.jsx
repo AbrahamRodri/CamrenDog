@@ -6,7 +6,7 @@ const Services = () => {
                 <div className="flex md:flex-row flex-col items-center">
                     <div className="m-5 w-3/5 h-3/5 flex flex-col justify-evenly">
                         <h1 className="md:text-5xl md:py-3 sm:text-3xl sm:py-2 text-xl font-bold py-1 font-round">Become the Go-To Dog Trainer in Your Area</h1>
-                        <p className="lg:text-2xl lg:leading-9 font-semibold">Maximize your visibility and reputation using our creative marketing strategies, positioning you as the TOP choice for dog owners in town.</p>
+                        <p className="lg:text-2xl md:text-lg sm:text-md text-sm lg:leading-9 font-semibold">Maximize your visibility and reputation using our creative marketing strategies, positioning you as the TOP choice for dog owners in town.</p>
                     </div>
                     <div className="m-5 h-4/5 items-center">
                         <img src="https://framerusercontent.com/images/67Y15O9VBpuTyKqrnkyd6QJGxo.png" alt="" />
@@ -15,7 +15,7 @@ const Services = () => {
                 <div className="flex md:flex-row flex-col items-center">
                     <div className="md:order-last m-5 w-3/5 h-3/5 flex flex-col justify-evenly">
                         <h1 className="md:text-5xl md:py-3 sm:text-3xl sm:py-2 text-xl font-bold py-1 font-round">Book Appointments CONSISTENTLY</h1>
-                        <p className="lg:text-2xl lg:leading-9 font-semibold">Say goodbye to empty slots in your calendar. We call and text ALL new dog trainers to ensure a steady stream of clients, helping you maintain a full and reliable schedule.</p>
+                        <p className="lg:text-2xl md:text-lg sm:text-md text-sm lg:leading-9 font-semibold">Say goodbye to empty slots in your calendar. We call and text ALL new dog trainers to ensure a steady stream of clients, helping you maintain a full and reliable schedule.</p>
                     </div>
                     <div className="md:order-first m-5 h-4/5 items-center">
                         <img src="https://framerusercontent.com/images/elESq8bxBINb30IqOjxYXvug.png" alt="" />
@@ -24,7 +24,7 @@ const Services = () => {
                 <div className="flex md:flex-row flex-col items-center">
                     <div className="m-5 w-3/5 h-3/5 flex flex-col justify-evenly">
                         <h1 className="md:text-5xl md:py-3 sm:text-3xl sm:py-2 text-xl font-bold py-1 font-round">Guaranteed Results</h1>
-                        <p className="lg:text-2xl lg:leading-9 font-semibold">Enjoy our risk-free approach to marketing. With our performance-based model, we will get you booked appointments - or we work for FREE.</p>
+                        <p className="lg:text-2xl md:text-lg sm:text-md text-sm lg:leading-9 font-semibold">Enjoy our risk-free approach to marketing. With our performance-based model, we will get you booked appointments - or we work for FREE.</p>
                     </div>
                     <div className="m-5 h-4/5 items center">
                         <img src="https://framerusercontent.com/images/LT36D0yJZ03AlmMcp5oTGgM8AEs.png" alt="" />
