@@ -5,8 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      
+    extend: {},
+    fontFamily: {
+      round: [ "Varela Round", "sans-serif"],
     },
   },
   plugins: [],

@@ -2,7 +2,7 @@ const Testimonials = () => {
     return(
         <div className="text-black" id="Testimonials">
             <div className="max-w-[800px] w-full h-full mx-auto text-center flex flex-col  justify-center m-5">
-                <h1 className="md:text-5xl text-3xl sm:py-2 font-bold m-5">See for yourself</h1>
+                <h1 className="md:text-6xl text-3xl sm:py-2 font-bold m-10 font-round">See for yourself</h1>
                 <div className="flex justify-center flex-col md:flex-row m-5">
                     <iframe className="flex justify-center mt-5 md:m-0" title="vimeo-player" src="https://player.vimeo.com/video/872132517?h=4d0273b986" width="auto" height="360" frameborder="0"    allowfullscreen></iframe>
                     <iframe className="flex justify-center mt-5 md:m-0" title="vimeo-player" src="https://player.vimeo.com/video/884106906?h=629840a157" width="auto" height="360" frameborder="0"    allowfullscreen></iframe>
