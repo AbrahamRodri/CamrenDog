@@ -1,3 +1,5 @@
+import { Link } from "react-scroll"
+import { PopupButton } from "react-calendly"
 
 const Hero = () => {
     return (
@@ -9,8 +11,11 @@ const Hero = () => {
                     <p className="md:text-3xl sm:text-2xl text-xl mt-5 ">The #1 Leading Marketing Firm for Canine Instructors.</p>
                 </div>
                 <div className="flex flex-row justify-center">
-                    <button className="border-2 p-2 px-4 rounded-xl my-5 border-blue-500 bg-blue-500 text-white hover:bg-gray-50 hover:text-black transition mr-4">Book a call</button>
-                    <button className="border-2 p-2 px-4 rounded-xl my-5 border-yellow-500 hover:bg-yellow-500 transition">Book a call</button>
+                    <PopupButton url = "https://calendly.com/convertchiros" className="border-2 p-2 px-4 rounded-xl my-5 border-blue-500 bg-blue-500 text-white hover:bg-gray-50 hover:text-black transition mr-4"
+                    rootElement={document.getElementById("root")} text = "Book a Call"/>
+                    <Link spy={true} smooth ={true} to="Testimonials">
+                        <li className="border-2 p-2 px-4 rounded-xl my-5 border-yellow-500 hover:bg-yellow-500 transition list-none">Testimonials</li>
+                    </Link>
                 </div>
             </div>
         </div>
