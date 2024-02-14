@@ -9,7 +9,7 @@ const Contact = () => {
                     <p className="md:text-3xl sm:text-2xl text-xl mt-5">Get in touch</p>
                 </div>
                 <div>
-                 <PopupButton url = "https://calendly.com/convertchiros" className="border-2 p-2 px-4 rounded-xl my-5 border-yellow-500 hover:bg-yellow-500 transition"
+                 <PopupButton url = "https://calendly.com/k9promo" className="border-2 p-2 px-4 rounded-xl my-5 border-yellow-500 hover:bg-yellow-500 transition"
                 rootElement={document.getElementById("root")} text = "Book a Call"/>
                 </div>
             </div>
