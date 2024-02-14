@@ -9,23 +9,23 @@ const FAQ = () => {
     
       <Accordion
         title="Will this work for brand/new businesses?"
-        answer="Yes! Whether you are an established business in your area, or your just getting started, we are here to help you grow your business no matter where your starting from."
+        answer="Absolutely! Whether you’re a well-established business in your area or just starting out, we’re here to support your business growth, regardless of your starting point"
       />
       <Accordion
         title="How quickly can I get started?"
-        answer="Following our agreement to work together, we immediately begin our onboarding process. Our team will build and launch your system within 5-7 days."
+        answer="Once we agree to work together, we kick off our onboarding process right away. Our team will create and launch your system within 5-7 days"
       />
       <Accordion 
       title="Do social media ads work?" 
-      answer="With the right experience and technology social media advertising is extremely effective. Before, you had to gamble on ads yourself trying to figure it out on your hard earned dollar. Instead, wrk with a team that has experience on running social media ads successfully." 
+      answer="With the proper expertise and technology, social media advertising can be highly effective. In the past, you had to take a chance on ads, figuring it out with your hard earned money. Instead, collaborate with a team experienced in running successful social media ad campaigns." 
       />
       <Accordion 
       title="Does this work with my current CRM?" 
-      answer="Our CRM is a pivotal piece to our system and it is what our team uses in order to nurture, follow up, and book appointments with your leads. As a customer, it is very low maintenance and we do not require you to exclusively use our CRM if you dont't want to." 
+      answer="Our CRM plays a crucial role in our system, facilitating lead nurturing, follow-ups, and appointment scheduling by our team. As a customer, it’s low maintenance, and you’re not obligated to exclusively use our CRM if you prefer otherwise." 
       />
       <Accordion 
       title="Will this work for me?" 
-      answer="A performance guarantee, customer success manager to hold your hand throughout the whole process, and full exclusivity to your generated leads. We generate cold hard results, guarantee." 
+      answer="We offer a performance guarantee, a dedicated customer success manager to guide you, and exclusive access to leads we generate for you. Our commitment ensures concrete and guaranteed results." 
       />
     </div>
   );
